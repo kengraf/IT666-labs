@@ -10,7 +10,9 @@
   https://www.youtube.com/watch?v=gzWiWH4skRE
 
 ### [Parrot install](./parrot.md)
-summary
+*Summary:* To minimize install and confguration issues for the variety of machine types in class.
+Some labs in this class will use pre-configured security virtual machines.
+*Tasks:* Install VirtualBox and Parrot VM.  Demonstrate command line and browser connectivity to the Interent
 
 PI
 AWS/ec2/opssec
