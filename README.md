@@ -9,7 +9,7 @@
 - Do the RHINO hunt https://cfreds.nist.gov/all/NIST/RhinoHunt
   https://www.youtube.com/watch?v=gzWiWH4skRE
 
-### [Parrot install](../parrot.md)
+### [Parrot install](./parrot.md)
 summary
 
 PI
