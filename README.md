@@ -9,7 +9,7 @@
 - Do the RHINO hunt https://cfreds.nist.gov/all/NIST/RhinoHunt
   https://www.youtube.com/watch?v=gzWiWH4skRE
 
-1. ### [Parrot install](./parrot.md)
+### 1. [Parrot install](./parrot.md)
   - __Summary:__ To minimize install and confguration issues for the variety of machine types in class.
 Some labs in this class will use pre-configured security virtual machines.  
   - __Tasks:__
