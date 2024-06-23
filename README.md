@@ -8,6 +8,8 @@
 - AWS EC2 ssh auth.log generation
 - Do the RHINO hunt https://cfreds.nist.gov/all/NIST/RhinoHunt
   https://www.youtube.com/watch?v=gzWiWH4skRE
+- add helpful links
+  - https://explainshell.com/explain?cmd=ls+-ar#
 
 ### 1) [Parrot install](./parrot.md)
   - __Summary:__ To minimize install and confguration issues for the variety of machine types in class.
@@ -20,27 +22,96 @@ Some labs in this class will use pre-configured security virtual machines.
   - __Summary:__ .  
   - __Tasks:__ .  
 
-3. AWS/ec2/opssec
-hacksplaining
-gruyere
-htb: 2million
-HTB: Paper
-SCAP: chromium/ublock
-ec2 auth.log
-offsec: dc-1 (reverse shell)
-GHIDRA
-forensics
-BGP.HE against UNH
-wireshark (alice)
-VPN,proxies
-TOR
-DNS hack(exfil)
-email (me)/KnowBe4/dkim/spf
-stego
-Blockchain
-password cracking
-openssl
-openid/oauth
-strideTrackCovid
-NIST Rhino
+### 3) [Cloud OpSec](./cloud_opsec.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 4) [Hacksplaining](./hacksplaining.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 5) [Gruyere](./gruyere.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 6) [HTB: 2million](./htb_2million.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 7) [HTB: Paper](./htb_paper.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 8) [Chromium SCAP/Ublock](./chromium.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 9) [Authentication Events](./auth_log.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 10) [Metasploit](./metasploit.md)
+  - __Summary:__ offsec: dc-1 (reverse shell).  
+  - __Tasks:__ .  
+
+### 11) [Reverse Engineering](./ghidra.md)
+  - __Summary:__ GHIDRA.  
+  - __Tasks:__ .  
+
+### 12) [Internet Scanning](./internet_scanning.md)
+  - __Summary:__ BGP.HE against UNH.  
+  - __Tasks:__ .  
+
+### 13) [Cyber Forensics](./forensics.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 14) [Network Forensics](./network_forensics.md)
+  - __Summary:__ Alice wireshark.  
+  - __Tasks:__ .  
+
+### 15) [VPN & Proxies](./vpn.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 16) [TOR](./tor.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 17) [DNS Exfiltration](./dns_exfil.md)
+  - __Summary:__ .  
+  - __Tasks:__ .
+
+### 18) [Phishing](./phishing.md)
+  - __Summary:__ email (me)/KnowBe4/dkim/spf.  
+  - __Tasks:__ .  
+
+### 19) [NIST Rhino](./rhino.md)
+  - __Summary:__ 2.	NIST rhino hunt (SIFT?).  
+  - __Tasks:__ .  
+
+### 20) [Blockchain](./blockchain.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 21) [Password Cracking](./password_cracking.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 22) [Openssl](./openssl.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 23) [Openid/Oauth](./openid_oauth.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 24) [Stride](./stride.md)
+  - __Summary:__ stride TrackCovid.  
+  - __Tasks:__ .  
+
+### 25) [GenCyber Coin](./gencybercoin.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
 
