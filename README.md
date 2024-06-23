@@ -1,8 +1,7 @@
 # IT666-labs
 
 ### TBDs
-- place the 000 slides into 17 chapters
-- review the book by chapter to fit gaps
+- review the book by chapter to fill gaps
 - determine which 5 chapters get 2 lectures
 - set lab order and complete this page
 - set lab tasks and outcomes
