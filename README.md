@@ -1,6 +1,14 @@
 # IT666-labs
 
 ### TBDs
+- place the 000 slides into 17 chapters
+- review the book by chapter to fit gaps
+- determine which 5 chapters get 2 lectures
+- set lab order and complete this page
+- set lab tasks and outcomes
+- set lab walkthrough for student presentators
+- set assignments in canvas reading, labs, final quiz, present lab,
+- fix grading
 - Parrot running on EC2
 - AWS python sim of apigatewayv2 (chatgpt)
 - HTB access to PAPER
