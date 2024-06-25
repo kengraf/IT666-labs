@@ -3,6 +3,7 @@
 ### TBDs
 - review the book by chapter to fill gaps
 - determine which 5 chapters get 2 lectures
+- add 4-5 questions from book to lectures?
 - set lab order and complete this page
 - set lab tasks and outcomes
 - set lab walkthrough for student presentators
