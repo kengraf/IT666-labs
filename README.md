@@ -7,6 +7,7 @@
 - set lab order and complete this page
 - set lab tasks and outcomes
 - set lab walkthrough for student presentators
+- add pratice sites, chapter? or standalone filler? https://www.stationx.net/cyber-security-labs/
 - set assignments in canvas reading, labs, final quiz, present lab,
 - fix grading
 - Parrot running on EC2
