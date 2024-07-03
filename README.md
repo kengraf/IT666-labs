@@ -21,19 +21,20 @@
   - https://explainshell.com/explain?cmd=ls+-ar#
 
 ### 1) [Parrot install](./parrot.md)
-  - __Summary:__ To minimize install and confguration issues for the variety of machine types in class.
-Some labs in this class will use pre-configured security virtual machines.  
+  - __Summary:__ For labs this semester we will use Parrot OS running in a virtual machine.  
   - __Tasks:__
     - Install VirtualBox and Parrot VM.
-    - Demonstrate command line and browser connectivity to the Interent
+    - Demonstrate command line and browser connectivity to the Internet
 
 ### 2) [Pi exam](./pi.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+  - __Summary:__ Attack a simple application [Pi Exam](pi.kengraf.com).  Modifying inputs to achieve different results.  
+  - __Tools:__ Browser inspect.  
+  - __Tasks:__ Inspect source, real answer, shortened answer, admin answer, cookie answer, injection answer.  
 
-### 3) [Hacksplaining](./hacksplaining.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+### 3) [OWASP Top 10 Web Attacks](./hacksplaining.md)
+  - __Summary:__ [Hacksplaining](hacksplaining.com) is a free online site with live demos of the most common web attacks.  
+  - __Tools:__ Browser.  
+  - __Tasks:__ The class assignment is to complete the OWASP Top 10 scenarios.  Lead the class through 4-5 examples.  
 
 ### 4) [DNS Exfiltration](./dns_exfil.md)
   - __Summary:__ .  
