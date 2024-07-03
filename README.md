@@ -1,10 +1,10 @@
 # IT666-labs
 
 ### TBDs
-- review the book by chapter to fill gaps
-- determine which 5 chapters get 2 lectures
+- ~~review the book by chapter to fill gaps~~
+- ~~determine which 5 chapters get 2 lectures~~
 - add 4-5 questions from book to lectures?
-- set lab order and complete this page
+- ~~set lab order~~ and complete this page
 - set lab tasks and outcomes
 - set lab walkthrough for student presentators
 - add pratice sites, chapter? or standalone filler? https://www.stationx.net/cyber-security-labs/
@@ -55,12 +55,36 @@ Some labs in this class will use pre-configured security virtual machines.
   - __Summary:__ GHIDRA.  
   - __Tasks:__ .  
 
-### 12) [Tokens](./tokens.md)
+### 9) [Blockchain](./blockchain.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 10) [Openssl](./openssl.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 11) [Authentication Events](./auth_log.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 12) [Openid/Oauth](./openid_oauth.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 13) [Tokens](./tokens.md)
   - __Summary:__ totp, google authenticator.  
+  - __Tasks:__ .  
+
+### 14) [Stride](./stride.md)
+  - __Summary:__ stride TrackCovid/serverless.  
   - __Tasks:__ .  
 
 ### 15) [Docker](./docker.md)
   - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 16) [Internet Scanning](./internet_scanning.md)
+  - __Summary:__ BGP.HE against UNH.  
   - __Tasks:__ .  
 
 ### 17) [Gruyere](./gruyere.md)
@@ -71,8 +95,24 @@ Some labs in this class will use pre-configured security virtual machines.
   - __Summary:__ .  
   - __Tasks:__ .  
 
-### 21) [Rhino Hunt](./rhino_hunt.md)
+### 19) [Network Forensics](./network_forensics.md)
+  - __Summary:__ Alice wireshark.  
+  - __Tasks:__ .  
+
+### 20) [Chromium SCAP/Ublock](./chromium.md)
   - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 21) [Rhino Hunt](./rhino_hunt.md)
+  - __Summary:__ 2.	NIST rhino hunt (SIFT?).  Computer Forensic Reference Data Sets (CFReDS) can be found at www.cfreds.nist.gov
+  - __Tasks:__ .  
+
+### 22) [Cloud OpSec](./cloud_opsec.md)
+  - __Summary:__ .  
+  - __Tasks:__ .  
+
+### 23) [Metasploit](./metasploit.md)
+  - __Summary:__ offsec: dc-1 (reverse shell).  
   - __Tasks:__ .  
 
 ### 24) [Password Audit Windows](./password_audit_windows.md)
@@ -80,62 +120,6 @@ Some labs in this class will use pre-configured security virtual machines.
   - __Tasks:__ .  
 
 ### 25) [Password Audit Linux](./password_audit_linux.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### ) [Cloud OpSec](./cloud_opsec.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### ) [Cloud OpSec](./cloud_opsec.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### 8) [Chromium SCAP/Ublock](./chromium.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### 9) [Authentication Events](./auth_log.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### 10) [Metasploit](./metasploit.md)
-  - __Summary:__ offsec: dc-1 (reverse shell).  
-  - __Tasks:__ .  
-
-### 12) [Internet Scanning](./internet_scanning.md)
-  - __Summary:__ BGP.HE against UNH.  
-  - __Tasks:__ .  
-
-### 14) [Network Forensics](./network_forensics.md)
-  - __Summary:__ Alice wireshark.  
-  - __Tasks:__ .  
-
-### 19) [NIST Rhino](./rhino.md)
-  - __Summary:__ 2.	NIST rhino hunt (SIFT?).  Computer Forensic Reference Data Sets (CFReDS) can be found at www.cfreds.nist.gov
-  - __Tasks:__ .  
-
-### 20) [Blockchain](./blockchain.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### 21) [Password Cracking](./password_cracking.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### 22) [Openssl](./openssl.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### 23) [Openid/Oauth](./openid_oauth.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
-
-### 24) [Stride](./stride.md)
-  - __Summary:__ stride TrackCovid.  
-  - __Tasks:__ .  
-
-### 25) [GenCyber Coin](./gencybercoin.md)
   - __Summary:__ .  
   - __Tasks:__ .  
 
