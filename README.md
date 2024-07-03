@@ -32,7 +32,7 @@
   - __Tasks:__ Inspect source, real answer, shortened answer, admin answer, cookie answer, injection answer.  
 
 ### 3) [OWASP Top 10 Web Attacks](./hacksplaining.md)
-  - __Summary:__ [Hacksplaining](hacksplaining.com) is a free online site with live demos of the most common web attacks.  
+  - __Summary:__ [Hacksplaining](https://hacksplaining.com) is a free online site with live demos of the most common web attacks.  
   - __Tools:__ Browser.  
   - __Tasks:__ The class assignment is to complete the OWASP Top 10 scenarios.  Lead the class through 4-5 examples.  
 
