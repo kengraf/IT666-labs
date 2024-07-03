@@ -27,7 +27,7 @@
     - Demonstrate command line and browser connectivity to the Internet
 
 ### 2) [Pi exam](./pi.md)
-  - __Summary:__ Attack a simple application [Pi Exam](pi.kengraf.com).  Modifying inputs to achieve different results.  
+  - __Summary:__ Attack a simple application [Pi Exam](https://pi.kengraf.com).  Modifying inputs to achieve different results.  
   - __Tools:__ Browser inspect.  
   - __Tasks:__ Inspect source, real answer, shortened answer, admin answer, cookie answer, injection answer.  
 
@@ -37,23 +37,28 @@
   - __Tasks:__ The class assignment is to complete the OWASP Top 10 scenarios.  Lead the class through 4-5 examples.  
 
 ### 4) [DNS Exfiltration](./dns_exfil.md)
-  - __Summary:__ .  
-  - __Tasks:__ .
+  - __Summary:__ Demonstrate how to use valid DNS requests to communicate with an [attackers command and control](https://github.com/kengraf/DNSexfil/tree/main).  
+  - __Tools:__ Parrot OS, python and nslookup.  
+  - __Tasks:__ Execute a python program on local machine.  Send a base64 encoded message to local DNS server.  
 
 ### 5) [Phishing](./phishing.md)
   - __Summary:__ email (me)/KnowBe4/dkim/spf.  
-  - __Tasks:__ .  
+  - __Tools:__ Parrot OS email.  
+  - __Tasks:__ Configure email service on Parrot.  Send phishing email to selected target.  
 
 ### 6) [HTB: 2million](./htb_2million.md)
   - __Summary:__ .  
+  - __Tools:__ Browser.  
   - __Tasks:__ .  
 
 ### 7) [HTB: Paper](./htb_paper.md)
   - __Summary:__ .  
+  - __Tools:__ Browser.  
   - __Tasks:__ .  
 
 ### 8) [Reverse Engineering](./ghidra.md)
   - __Summary:__ GHIDRA.  
+  - __Tools:__ Parrot, Ghidra.  
   - __Tasks:__ .  
 
 ### 9) [Blockchain](./blockchain.md)
