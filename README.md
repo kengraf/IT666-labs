@@ -31,11 +31,11 @@ Some labs in this class will use pre-configured security virtual machines.
   - __Summary:__ .  
   - __Tasks:__ .  
 
-### 3) [Cloud OpSec](./cloud_opsec.md)
+### 3a) [Cloud OpSec](./cloud_opsec.md)
   - __Summary:__ .  
   - __Tasks:__ .  
 
-### 4) [Hacksplaining](./hacksplaining.md)
+### 7) [Hacksplaining](./hacksplaining.md)
   - __Summary:__ .  
   - __Tasks:__ .  
 
@@ -96,7 +96,7 @@ Some labs in this class will use pre-configured security virtual machines.
   - __Tasks:__ .  
 
 ### 19) [NIST Rhino](./rhino.md)
-  - __Summary:__ 2.	NIST rhino hunt (SIFT?).  
+  - __Summary:__ 2.	NIST rhino hunt (SIFT?).  Computer Forensic Reference Data Sets (CFReDS) can be found at www.cfreds.nist.gov
   - __Tasks:__ .  
 
 ### 20) [Blockchain](./blockchain.md)
