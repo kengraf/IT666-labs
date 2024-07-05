@@ -77,8 +77,9 @@
   - __Tasks:__ Retrieve auth log, analyze log for various attack behaviors.  
 
 ### 12) [Openid/Oauth](./openid_oauth.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+  - __Summary:__ Understand single sign-on mechanisms for web sites [lab](https://mycourses.unh.edu/courses/84760/assignments/670156).  
+  - __Tools:__ Browser.    
+  - __Tasks:__ [Visit site](https://kengraf-auth2.web.app/github-popup.html), login, analyze tokens.  
 
 ### 13) [Tokens](./tokens.md)
   - __Summary:__ totp, google authenticator.  
