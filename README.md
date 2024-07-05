@@ -54,24 +54,27 @@
 ### 7) [HTB: Paper](./htb_paper.md)
   - __Summary:__ A step up in difficulty from 2million.  This box is a fun theme based on "The Office".  
   - __Tools:__ Browser.  
-  - __Tasks:__ .  
+  - __Tasks:__ Basic enumeration, searchsploit, LINPEAS.  
 
 ### 8) [Reverse Engineering](./ghidra.md)
   - __Summary:__ GHIDRA.  
   - __Tools:__ Parrot, Ghidra.  
-  - __Tasks:__ .  
+  - __Tasks:__ Compile sample C code, load executable in Ghidra, decompile and compare.  
 
 ### 9) [Blockchain](./blockchain.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+  - __Summary:__ Use online [bitcoin demo](https://andersbrownworth.com/blockchain/distributed).    
+  - __Tools:__ Browser.  
+  - __Tasks:__ Alter transactions, track actions needed to bring the blocks back into agreement.  
 
 ### 10) [Openssl](./openssl.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+  - __Summary:__ Create a cloud enabled server running SSH.
+  - __Tools:__ Browser.    
+  - __Tasks:__ Create cloud machine, enable SSH, configure a specific user and keys.  
 
 ### 11) [Authentication Events](./auth_log.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+  - __Summary:__ Analyze attacks against a public SSH server.  
+  - __Tools:__ Parrot, Command line tools.
+  - __Tasks:__ Retrieve auth log, analyze log for various attack behaviors.  
 
 ### 12) [Openid/Oauth](./openid_oauth.md)
   - __Summary:__ .  
