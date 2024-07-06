@@ -19,6 +19,7 @@
   https://www.youtube.com/watch?v=gzWiWH4skRE
 - add helpful links
   - https://explainshell.com/explain?cmd=ls+-ar#
+- Fix facebook signout button not activating
 
 ### 1) [Parrot install](./parrot.md)
   - __Summary:__ For labs this semester we will use Parrot OS running in a virtual machine.  
@@ -125,14 +126,32 @@
   - __Summary:__ offsec: dc-1 (reverse shell).  
   - __Tasks:__ .  
 
-### 24) [Password Audit Windows](./password_audit_windows.md)
-  - __Summary:__ Perform a WIndows password audit on a simulated business environment.  
-  - __Tools:__ Browser.  
-  - __Tasks:__ locate, retrieve, and crack password hashes.  Force password reset for failed user passwords.  
+### 24) [Windows Password Audit](./windows_password_audit.md)
+  - __Summary:__
+    - Perform a Windows password audit on a simulated business environment.  
+  - __Tools:__
+    - [NICE portal](https://portal.nice-challenge.com/login) a registration link will be provider prior to class.  
+    - Utilities needed are provided by a virtual Kali instance.  
+  - __Tasks:__
+    - Locate, retrieve, and crack password hashes.
+    - Force password reset for only the users that failed the password audit.
+  - __Submission:__
+    - No Canvas submission.
+    - Click "Submit Challenge Attempt" when the first 3 checkmarks are green.
+    - Note: the first and third checkmarks start green, if either turns red you have broken something.
 
 ### 25) [Password Audit Linux](./password_audit_linux.md)
-  - __Summary:__ Perform a Linux application password audit on a simulated business environment.  
-  - __Tools:__ Browser.  
-  - __Tasks:__ locate, retrieve, and crack password hashes.  Force password reset for failed user passwords.  
+  - __Summary:__
+    - Perform a Linux application password audit on a simulated business environment.  
+  - __Tools:__
+    - [NICE portal](https://portal.nice-challenge.com/login) a registration link will be provider prior to class.  
+    - Utilities needed are provided by a virtual Kali instance.  
+  - __Tasks:__
+    - Locate, retrieve, and crack password hashes.
+    - Force password reset for only the users that failed the password audit.
+  - __Submission:__
+    - No Canvas submission.
+    - Click "Submit Challenge Attempt" when the first, thrid, and fourth checkmarks are green.
+    - Note: the first and third checkmarks start green, if either turns red you have broken something.
 
 
