@@ -43,8 +43,8 @@
   - __Tasks:__ Execute a python program on local machine.  Send a base64 encoded message to local DNS server.  
 
 ### 5) [Phishing](./phishing.md)
-  - __Summary:__ email (me)/KnowBe4/dkim/spf.  
-  - __Tools:__ Parrot OS email.  
+  - __Summary:__ email (me)/dmarc/dkim/spf.  
+  - __Tools:__ Parrot OS email, dig, nslookup.  
   - __Tasks:__ Configure email service on Parrot.  Send phishing email to selected target.  
 
 ### 6) [HTB: 2million](./htb_2million.md)
