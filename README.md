@@ -48,7 +48,7 @@
   - __Tasks:__ Configure email service on Parrot.  Send phishing email to selected target.  
 
 ### 6) [HTB: 2million](./htb_2million.md)
-  - __Summary:__ To cellibrate 2 million users; Hack The Box (HTB) went retro. HTB use to require that "you are so high" to create an account on thier site.  This box is a simulation of HTB's previous login process.  Can you show that "you are so high"?.  
+  - __Summary:__ To celebrate 2 million users; Hack The Box (HTB) went retro. HTB use to require that "you are so high" to create an account on their site.  This box is a simulation of HTB's previous login process.  Can you show that "you are so high"?.  
   - __Tools:__ Browser.  
   - __Tasks:__ Follow the code.  Alter the normal browser flow.  Get an access code to login.  
 
