@@ -92,28 +92,28 @@
 ### 14) [Docker](./docker.md)
   - __Summary:__ Introduction to pulling and running an existing container.  
   - __Tools:__ Parrot, Docker(podman), website(dockerhub.com).  
-  - __Tasks:__ edit /etc/containers/registries.conf  appending the following line.  
-    unqualified-search-registries = ["docker.io"]
-    cat .env
-NODE_ENV=development
-ENCRYPTION_KEYS='[{"isPrimary": true, "id": 0, "value": "deadbeef2233445566778899aabbccdd"}]'
-ENCRYPTION_JWT_SIGNING_KEY=deadbeef112233445566778899aabbcc
-ENCRYPTION_JWT_REFRESH_SIGNING_KEY=deadbeef00112233445566778899aabb
-SERVER_API_PROTOCOL='http'
+  - __Tasks:__
 
-    docker pull owasp/threat-dragon:stable
-sudo touch /etc/containers/nodocker
-   46  docker run -d -p 8080:3000 -v $(pwd)/.env:/app/.env owasp/threat-dragon:stable
-    now visit http://localhost:8080/
-   51  docker container ls
-   52  docker container kill ... 
+Pull, run, modifiy, list, kill HelloWorld from dockerhub.com
+
+Add following line to /etc/containers/registries.conf 
+    unqualified-search-registries = ["docker.io"]  
+    cat <<EOF >.env  
+NODE_ENV=development  
+ENCRYPTION_KEYS='[{"isPrimary": true, "id": 0, "value": "deadbeef2233445566778899aabbccdd"}]'  
+ENCRYPTION_JWT_SIGNING_KEY=deadbeef112233445566778899aabbcc  
+ENCRYPTION_JWT_REFRESH_SIGNING_KEY=deadbeef00112233445566778899aabb  
+SERVER_API_PROTOCOL='http'  
+EOF  
+  docker run -d -p 8080:3000 -v $(pwd)/.env:/app/.env owasp/threat-dragon:stable
+  browser visit: http://localhost:8080/
 
   - Submit screenshot of ThreatDragon main page.
 
 ### 15) [Stride](./stride.md)
   - __Summary:__ stride ThreatDragon.  
   - __Tools:__ Parrot, Docker(podman), website(dockerhub.com).  
-  - __Tasks:__ Add STRIDE threats to example ThreatDrgon model.
+  - __Tasks:__ Add STRIDE threats to example ThreatDragon model.
         Submit screenshot.  
 
 
