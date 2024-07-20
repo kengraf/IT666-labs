@@ -20,6 +20,8 @@
 - add helpful links
   - https://explainshell.com/explain?cmd=ls+-ar#
 - Fix facebook signout button not activating
+- Add OATH code to kengraf.com example: https://2fa.glitch.me/
+- Convert Openid code to kengraf.com
 
 ### 1) [Parrot install](./parrot.md)
   - __Summary:__ For labs this semester we will use Parrot OS running in a virtual machine.  
@@ -54,7 +56,7 @@
 
 ### 7) [HTB: Paper](./htb_paper.md)
   - __Summary:__ A step up in difficulty from 2million.  This box is a fun theme based on "The Office".  
-  - __Tools:__ Browser.  
+  - __Tools:__ Parrot OS.  
   - __Tasks:__ Basic enumeration, searchsploit, LINPEAS.  
 
 ### 8) [Reverse Engineering](./ghidra.md)
@@ -74,7 +76,7 @@
 
 ### 11) [Authentication Events](./auth_log.md)
   - __Summary:__ Analyze attacks against a public SSH server.  
-  - __Tools:__ Parrot, Command line tools.
+  - __Tools:__ Parrot command line tools.
   - __Tasks:__ Retrieve auth log, analyze log for various attack behaviors.  
 
 ### 12) [Openid/Oauth](./openid_oauth.md)
@@ -83,16 +85,37 @@
   - __Tasks:__ [Visit site](https://kengraf-auth2.web.app/github-popup.html), login, analyze tokens.  
 
 ### 13) [Tokens](./tokens.md)
-  - __Summary:__ totp, google authenticator.  
-  - __Tasks:__ .  
+  - __Summary:__ totp, google authenticator.
+  - __Tools:__  Parrot, Python, Browser.    
+  - __Tasks:__ Generate id, secret, and QR code.  
 
-### 14) [Stride](./stride.md)
-  - __Summary:__ stride TrackCovid/serverless.  
-  - __Tasks:__ .  
+### 14) [Docker](./docker.md)
+  - __Summary:__ Introduction to pulling and running an existing container.  
+  - __Tools:__ Parrot, Docker(podman), website(dockerhub.com).  
+  - __Tasks:__ edit /etc/containers/registries.conf  appending the following line.  
+    unqualified-search-registries = ["docker.io"]
+    cat .env
+NODE_ENV=development
+ENCRYPTION_KEYS='[{"isPrimary": true, "id": 0, "value": "deadbeef2233445566778899aabbccdd"}]'
+ENCRYPTION_JWT_SIGNING_KEY=deadbeef112233445566778899aabbcc
+ENCRYPTION_JWT_REFRESH_SIGNING_KEY=deadbeef00112233445566778899aabb
+SERVER_API_PROTOCOL='http'
 
-### 15) [Docker](./docker.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+    docker pull owasp/threat-dragon:stable
+sudo touch /etc/containers/nodocker
+   46  docker run -d -p 8080:3000 -v $(pwd)/.env:/app/.env owasp/threat-dragon:stable
+    now visit http://localhost:8080/
+   51  docker container ls
+   52  docker container kill ... 
+
+  - Submit screenshot of ThreatDragon main page.
+
+### 15) [Stride](./stride.md)
+  - __Summary:__ stride ThreatDragon.  
+  - __Tools:__ Parrot, Docker(podman), website(dockerhub.com).  
+  - __Tasks:__ Add STRIDE threats to example ThreatDrgon model.
+        Submit screenshot.  
+
 
 ### 16) [Internet Scanning](./internet_scanning.md)
   - __Summary:__ BGP.HE against UNH.  
