@@ -118,8 +118,11 @@ EOF
 
 
 ### 16) [Internet Scanning](./internet_scanning.md)
-  - __Summary:__ BGP.HE against UNH.  
-  - __Tasks:__ .  
+  - __Summary:__ BGP.HE against UNH.
+  - __Tools:__
+      [bgp.he.net](https://bgp.he.net/)  
+      [shodan](https://www.shodan.io) 
+  - __Tasks:__ Use 3rd searches to identify targets.  
 
 ### 17) [Gruyere](./gruyere.md)
   - __Summary:__ ZAP/Burp bug hunt.  
