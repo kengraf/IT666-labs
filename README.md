@@ -125,16 +125,20 @@ EOF
   - __Tasks:__ Use 3rd searches to identify targets.  
 
 ### 17) [Gruyere](./gruyere.md)
-  - __Summary:__ ZAP/Burp bug hunt.  
-  - __Tasks:__ .  
+  - __Summary:__ A bug hunt against Google's Gruyere site
+  - __Tools:__ Parrot, Burpsuite, and OWASP's ZAP.
+        [Gruyere](http://google-gruyere.appspot.com/)  
+  - __Tasks:__ Setup a proxy chain, evaluate site, test remediations.  
 
 ### 18) [TOR](./tor.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+  - __Summary:__ Investigate how The Onion Router (TOR) works and navigation of the Dark Web.
+  - __Tools:__  Parrot TOR browser
+  - __Tasks:__ Visit a set of websites using TOR.  
 
 ### 19) [Network Forensics](./network_forensics.md)
-  - __Summary:__ Alice wireshark.  
-  - __Tasks:__ .  
+  - __Summary:__ Alice wireshark.
+  - __Tools:__ Wireshark (preinstalled on Parrot)
+  - __Tasks:__ By reading captured emails determine who Ann is meeting and where.  
 
 ### 20) [Chromium SCAP/Ublock](./chromium.md)
   - __Summary:__ .  
