@@ -12,7 +12,7 @@
 - fix grading
 - Parrot running on EC2
 - AWS python sim of apigatewayv2 (chatgpt)
-- HTB access to PAPER
+- ~~HTB access to PAPER~~
 - alientvault billiardyoda ken.graf@unh.edu strongpassword
 - AWS EC2 ssh auth.log generation
 - Do the RHINO hunt https://cfreds.nist.gov/all/NIST/RhinoHunt
@@ -141,16 +141,19 @@ EOF
   - __Tasks:__ By reading captured emails determine who Ann is meeting and where.  
 
 ### 20) [Chromium SCAP/Ublock](./chromium.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+  - __Summary:__ Implement an enterprise security policy for Chrome.  
+  - __Tools:__  Chrome install needed on Parrot
+  - __Tasks:__ Chrome install, apply policy, make adjustments for unwanted behavior.    
 
 ### 21) [Rhino Hunt](./rhino_hunt.md)
-  - __Summary:__ 2.	NIST rhino hunt (SIFT?).  Computer Forensic Reference Data Sets (CFReDS) can be found at www.cfreds.nist.gov
-  - __Tasks:__ .  
+  - __Summary:__ 2.	A NIST sponsored forensic challenge. A rhino hunt.  Given a disk image and some network captures can you answer the questions and find the rhinos?
+  - __Tools:__  Parrot: Wireshark and foremost.  
+  - __Tasks:__ Carve data from packet captures and a disk image.  
 
 ### 22) [Cloud OpSec](./cloud_opsec.md)
-  - __Summary:__ .  
-  - __Tasks:__ .  
+  - __Summary:__ Investigate admin access (both by AWS and the customer) to a standard EC2 instance.
+  - __Tools:__ AWS cloud account, SSH.    
+  - __Tasks:__ Create an AWS EC2 instance.  Review SSH access. Review system manager access.    
 
 ### 23) [Metasploit](./metasploit.md)
   - __Summary:__ offsec: dc-1 (reverse shell).  
