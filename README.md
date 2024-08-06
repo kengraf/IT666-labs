@@ -23,51 +23,51 @@
 - Add OATH code to kengraf.com example: https://2fa.glitch.me/
 - Convert Openid code to kengraf.com
 
-### 1) [Parrot install](./parrot.md)
+### 1) Parrot install
   - __Summary:__ For labs this semester we will use Parrot OS running in a virtual machine.
   - __Tools:__ Virtual Box
   - __Tasks:__
     - Install VirtualBox and Parrot VM.
     - Demonstrate command line and browser connectivity to the Internet
 
-### 2) [Pi exam](./pi.md)
+### 2) Pi exam
   - __Summary:__ Attack a simple application.  Modifying inputs to achieve different results.  
   - __Tools:__ Browser inspect.
       Website: [Pi Exam](https://pi.kengraf.com)
   - __Tasks:__ Inspect source, real answer, shortened answer, admin answer, cookie answer, injection answer.  
 
-### 3) [OWASP Top 10 Web Attacks](./hacksplaining.md)
+### 3) OWASP Top 10 Web Attacks
   - __Summary:__ [Hacksplaining](https://hacksplaining.com) is a free online site with live demos of the most common web attacks.  
   - __Tools:__ Website.
             [Hacksplaining](https://hacksplaining.com)    
   - __Tasks:__ The class assignment is to complete the OWASP Top 10 scenarios.  Lead the class through 4-5 examples.  
 
-### 4) [DNS Exfiltration](./dns_exfil.md)
+### 4) DNS Exfiltration
   - __Summary:__ Demonstrate how to use valid DNS requests to communicate with an attackers command.
    - __Tools:__ Parrot OS, python and nslookup.  
   - __Tasks:__ Execute a python program on local machine.  Send base64 encoded messages to local DNS server.  
 
-### 5) [Phishing](./phishing.md)
+### 5) Phishing
   - __Summary:__ Experiment with email security standards.    
   - __Tools:__ Parrot OS email, dig, nslookup.  
   - __Tasks:__ Configure email service on Parrot.  Send phishing email to selected target.  
 
-### 6) [HTB: TwoMillion](./htb_2million.md)
+### 6) HTB: TwoMillion
   - __Summary:__ To celebrate 2 million users; Hack The Box (HTB) went retro. In the past HTB required that "you are so high" to create an account on their site.  This box is a simulation of HTB's previous login process.  Can you show that you are tall enough to ride?   
   - __Tools:__ Browser.  
   - __Tasks:__ Follow the code.  Alter the normal browser flow.  Get an access code to login.  
 
-### 7) [HTB: Paper](./htb_paper.md)
+### 7) HTB: Paper
   - __Summary:__ A step up in difficulty from TwoMillion.  This box is a fun theme based on "The Office".  
   - __Tools:__ Parrot OS.  
   - __Tasks:__ Basic enumeration, searchsploit, LINPEAS.  
 
-### 8) [Reverse Engineering](./ghidra.md)
+### 8) Reverse Engineering
   - __Summary:__ Use NSA developed tool to decompile code.    
   - __Tools:__ Parrot, Ghidra.  
   - __Tasks:__ Compile sample C code, load executable in Ghidra, decompile and compare.  
 
-### 9) [Blockchain](./blockchain.md)
+### 9) Blockchain
   - __Summary:__ Use online demo to understand blockchain construction.      
   - __Tools:__ Website.
       [bitcoin demo](https://andersbrownworth.com/blockchain/distributed).
@@ -99,58 +99,57 @@
   - __Tools:__ Parrot command shell, Docker(podman), [DockerHub](dockerhub.com).  
   - __Tasks:__  Execute commands to pull, run, and manage containers.  
 
-
-
-### 15) [Stride](./stride.md)
-  - __Summary:__ stride ThreatDragon.  
-  - __Tools:__ Parrot, Docker(podman), website(dockerhub.com).  
+### 15) STRIDE
+  - __Summary:__ Use Microsoft's STRIDE model and ThreatDragon to define threats for a basic web site.  
+  - __Tools:__ Parrot, Docker(podman), [DockerHub](dockerhub.com).  
   - __Tasks:__ Add STRIDE threats to example ThreatDragon model.
         Submit screenshot.  
 
-
-### 16) [Internet Scanning](./internet_scanning.md)
-  - __Summary:__ BGP.HE against UNH.
-  - __Tools:__
+### 16) Internet Scanning
+  - __Summary:__ Do reconnaissance against UNH using 3rd party Internet based tools.
+  - __Tools:__  Websites
       [bgp.he.net](https://bgp.he.net/)  
       [shodan](https://www.shodan.io) 
-  - __Tasks:__ Use 3rd searches to identify targets.  
+  - __Tasks:__  Identify CIDR blocks, services, and websites.  
 
-### 17) [Gruyere](./gruyere.md)
+### 17) Gruyere
   - __Summary:__ A bug hunt against Google's Gruyere site
   - __Tools:__ Parrot, Burpsuite, and OWASP's ZAP.
         [Gruyere](http://google-gruyere.appspot.com/)  
   - __Tasks:__ Setup a proxy chain, evaluate site, test remediations.  
 
-### 18) [TOR](./tor.md)
+### 18) TOR
   - __Summary:__ Investigate how The Onion Router (TOR) works and navigation of the Dark Web.
   - __Tools:__  Parrot TOR browser
-  - __Tasks:__ Visit a set of websites using TOR.  
+  - __Tasks:__ Analyze TOR circuits and visit a set of websites using TOR.    
 
-### 19) [Network Forensics](./network_forensics.md)
-  - __Summary:__ Alice wireshark.
+### 19) Network Forensics
+  - __Summary:__ Use Wireshark to analyze a packet capture.  
   - __Tools:__ Wireshark (preinstalled on Parrot)
   - __Tasks:__ By reading captured emails determine who Ann is meeting and where.  
 
-### 20) [Chromium SCAP/Ublock](./chromium.md)
+### 20) Chromium SCAP/Ublock
   - __Summary:__ Implement an enterprise security policy for Chrome.  
   - __Tools:__  Chrome install needed on Parrot
   - __Tasks:__ Chrome install, apply policy, make adjustments for unwanted behavior.    
 
-### 21) [Rhino Hunt](./rhino_hunt.md)
-  - __Summary:__ 2.	A NIST sponsored forensic challenge. A rhino hunt.  Given a disk image and some network captures can you answer the questions and find the rhinos?
-  - __Tools:__  Parrot: Wireshark and foremost.  
-  - __Tasks:__ Carve data from packet captures and a disk image.  
+### 21) Rhino Hunt
+  - __Summary:__ 2.	A NIST sponsored forensic challenge called "Rhino Hunt".  Given a disk image and some network captures can you answer the questions and find the rhinos?
+  - __Tools:__  Parrot: Wireshark and Foremost.  
+  - __Tasks:__ Carve images and data from packet captures and a disk image.  
 
-### 22) [Cloud OpSec](./cloud_opsec.md)
-  - __Summary:__ Investigate admin access (both by AWS and the customer) to a standard EC2 instance.
+### 22) Cloud OpSec
+  - __Summary:__ Investigate admin access (both by AWS and the customer) to and from a standard EC2 instance.  
   - __Tools:__ AWS cloud account, SSH.    
   - __Tasks:__ Create an AWS EC2 instance.  Review SSH access. Review system manager access.    
 
-### 23) [Metasploit](./metasploit.md)
-  - __Summary:__ offsec: dc-1 (reverse shell).  
-  - __Tasks:__ .  
+### 23) Metasploit
+  - __Summary:__ Use a CTF (DC-1) from Offensive Security’s proving ground.  The solution requires creating a reverse shell.  
+  - __Tools__:
+        Website: [Offensive Security's proving ground](https://portal.offsec.com/labs/play)
+  - __Tasks:__ Execute the attack steps; enumeration, foothold, and escalation.  
 
-### 24) [Windows Password Audit](./windows_password_audit.md)
+### 24) Windows Password Audit
   - __Summary:__
     - Perform a Windows password audit on a simulated business environment.  
   - __Tools:__
@@ -159,12 +158,8 @@
   - __Tasks:__
     - Locate, retrieve, and crack password hashes.
     - Force password reset for only the users that failed the password audit.
-  - __Submission:__
-    - No Canvas submission.
-    - Click "Submit Challenge Attempt" when the first 3 checkmarks are green.
-    - Note: the first and third checkmarks start green, if either turns red you have broken something.
 
-### 25) [Password Audit Linux](./password_audit_linux.md)
+### 25) Password Audit Linux
   - __Summary:__
     - Perform a Linux application password audit on a simulated business environment.  
   - __Tools:__
@@ -173,9 +168,5 @@
   - __Tasks:__
     - Locate, retrieve, and crack password hashes.
     - Force password reset for only the users that failed the password audit.
-  - __Submission:__
-    - No Canvas submission.
-    - Click "Submit Challenge Attempt" when the first, thrid, and fourth checkmarks are green.
-    - Note: the first and third checkmarks start green, if either turns red you have broken something.
 
 
