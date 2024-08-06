@@ -24,91 +24,82 @@
 - Convert Openid code to kengraf.com
 
 ### 1) [Parrot install](./parrot.md)
-  - __Summary:__ For labs this semester we will use Parrot OS running in a virtual machine.  
+  - __Summary:__ For labs this semester we will use Parrot OS running in a virtual machine.
+  - __Tools:__ Virtual Box
   - __Tasks:__
     - Install VirtualBox and Parrot VM.
     - Demonstrate command line and browser connectivity to the Internet
 
 ### 2) [Pi exam](./pi.md)
-  - __Summary:__ Attack a simple application [Pi Exam](https://pi.kengraf.com).  Modifying inputs to achieve different results.  
-  - __Tools:__ Browser inspect.  
+  - __Summary:__ Attack a simple application.  Modifying inputs to achieve different results.  
+  - __Tools:__ Browser inspect.
+      Website: [Pi Exam](https://pi.kengraf.com)
   - __Tasks:__ Inspect source, real answer, shortened answer, admin answer, cookie answer, injection answer.  
 
 ### 3) [OWASP Top 10 Web Attacks](./hacksplaining.md)
   - __Summary:__ [Hacksplaining](https://hacksplaining.com) is a free online site with live demos of the most common web attacks.  
-  - __Tools:__ Browser.  
+  - __Tools:__ Website.
+            [Hacksplaining](https://hacksplaining.com)    
   - __Tasks:__ The class assignment is to complete the OWASP Top 10 scenarios.  Lead the class through 4-5 examples.  
 
 ### 4) [DNS Exfiltration](./dns_exfil.md)
-  - __Summary:__ Demonstrate how to use valid DNS requests to communicate with an [attackers command and control](https://github.com/kengraf/DNSexfil/tree/main).  
-  - __Tools:__ Parrot OS, python and nslookup.  
-  - __Tasks:__ Execute a python program on local machine.  Send a base64 encoded message to local DNS server.  
+  - __Summary:__ Demonstrate how to use valid DNS requests to communicate with an attackers command.
+   - __Tools:__ Parrot OS, python and nslookup.  
+  - __Tasks:__ Execute a python program on local machine.  Send base64 encoded messages to local DNS server.  
 
 ### 5) [Phishing](./phishing.md)
-  - __Summary:__ email (me)/dmarc/dkim/spf.  
+  - __Summary:__ Experiment with email security standards.    
   - __Tools:__ Parrot OS email, dig, nslookup.  
   - __Tasks:__ Configure email service on Parrot.  Send phishing email to selected target.  
 
-### 6) [HTB: 2million](./htb_2million.md)
-  - __Summary:__ To celebrate 2 million users; Hack The Box (HTB) went retro. HTB use to require that "you are so high" to create an account on their site.  This box is a simulation of HTB's previous login process.  Can you show that "you are so high"?.  
+### 6) [HTB: TwoMillion](./htb_2million.md)
+  - __Summary:__ To celebrate 2 million users; Hack The Box (HTB) went retro. In the past HTB required that "you are so high" to create an account on their site.  This box is a simulation of HTB's previous login process.  Can you show that you are tall enough to ride?   
   - __Tools:__ Browser.  
   - __Tasks:__ Follow the code.  Alter the normal browser flow.  Get an access code to login.  
 
 ### 7) [HTB: Paper](./htb_paper.md)
-  - __Summary:__ A step up in difficulty from 2million.  This box is a fun theme based on "The Office".  
+  - __Summary:__ A step up in difficulty from TwoMillion.  This box is a fun theme based on "The Office".  
   - __Tools:__ Parrot OS.  
   - __Tasks:__ Basic enumeration, searchsploit, LINPEAS.  
 
 ### 8) [Reverse Engineering](./ghidra.md)
-  - __Summary:__ GHIDRA.  
+  - __Summary:__ Use NSA developed tool to decompile code.    
   - __Tools:__ Parrot, Ghidra.  
   - __Tasks:__ Compile sample C code, load executable in Ghidra, decompile and compare.  
 
 ### 9) [Blockchain](./blockchain.md)
-  - __Summary:__ Use online [bitcoin demo](https://andersbrownworth.com/blockchain/distributed).    
-  - __Tools:__ Browser.  
+  - __Summary:__ Use online demo to understand blockchain construction.      
+  - __Tools:__ Website.
+      [bitcoin demo](https://andersbrownworth.com/blockchain/distributed).
   - __Tasks:__ Alter transactions, track actions needed to bring the blocks back into agreement.  
 
-### 10) [Openssl](./openssl.md)
+### 10) Authentication SSH
   - __Summary:__ Create a cloud enabled server running SSH.
-  - __Tools:__ Browser.    
+  - __Tools:__ AWS account, Parrot command shell.    
   - __Tasks:__ Create cloud machine, enable SSH, configure a specific user and keys.  
 
-### 11) [Authentication Events](./auth_log.md)
+### 11) Authentication Events
   - __Summary:__ Analyze attacks against a public SSH server.  
   - __Tools:__ Parrot command line tools.
   - __Tasks:__ Retrieve auth log, analyze log for various attack behaviors.  
 
-### 12) [Openid/Oauth](./openid_oauth.md)
-  - __Summary:__ Understand single sign-on mechanisms for web sites [lab](https://mycourses.unh.edu/courses/84760/assignments/670156).  
-  - __Tools:__ Browser.    
-  - __Tasks:__ [Visit site](https://kengraf-auth2.web.app/github-popup.html), login, analyze tokens.  
+### 12) AUthentication OAuth
+  - __Summary:__ Understand single sign-on mechanisms for web sites.  
+  - __Tools:__ Website.
+      [kengraf-auth2](https://kengraf-auth2.web.app/github-popup.html)  
+  - __Tasks:__  Social media login and analyze tokens.  
 
-### 13) [Tokens](./tokens.md)
-  - __Summary:__ totp, google authenticator.
+### 13) TOTP (Google Authenticator)
+  - __Summary:__ Generate and analyze TOTP tokens used in apps like Google's Authenticator.
   - __Tools:__  Parrot, Python, Browser.    
   - __Tasks:__ Generate id, secret, and QR code.  
 
-### 14) [Docker](./docker.md)
+### 14) Docker
   - __Summary:__ Introduction to pulling and running an existing container.  
-  - __Tools:__ Parrot, Docker(podman), website(dockerhub.com).  
-  - __Tasks:__
+  - __Tools:__ Parrot command shell, Docker(podman), [DockerHub](dockerhub.com).  
+  - __Tasks:__  Execute commands to pull, run, and manage containers.  
 
-Pull, run, modifiy, list, kill HelloWorld from dockerhub.com
 
-Add following line to /etc/containers/registries.conf 
-    unqualified-search-registries = ["docker.io"]  
-    cat <<EOF >.env  
-NODE_ENV=development  
-ENCRYPTION_KEYS='[{"isPrimary": true, "id": 0, "value": "deadbeef2233445566778899aabbccdd"}]'  
-ENCRYPTION_JWT_SIGNING_KEY=deadbeef112233445566778899aabbcc  
-ENCRYPTION_JWT_REFRESH_SIGNING_KEY=deadbeef00112233445566778899aabb  
-SERVER_API_PROTOCOL='http'  
-EOF  
-  docker run -d -p 8080:3000 -v $(pwd)/.env:/app/.env owasp/threat-dragon:stable
-  browser visit: http://localhost:8080/
-
-  - Submit screenshot of ThreatDragon main page.
 
 ### 15) [Stride](./stride.md)
   - __Summary:__ stride ThreatDragon.  
