@@ -14,12 +14,12 @@
 - AWS python sim of apigatewayv2 (chatgpt)
 - ~~HTB access to PAPER~~
 - alientvault billiardyoda ken.graf@unh.edu strongpassword
-- AWS EC2 ssh auth.log generation
-- Do the RHINO hunt https://cfreds.nist.gov/all/NIST/RhinoHunt
-  https://www.youtube.com/watch?v=gzWiWH4skRE
+- ~~AWS EC2 ssh auth.log generation~~
+- ~~Do the RHINO hunt https://cfreds.nist.gov/all/NIST/RhinoHunt
+  https://www.youtube.com/watch?v=gzWiWH4skRE~~
 - add helpful links
   - https://explainshell.com/explain?cmd=ls+-ar#
-- Fix facebook signout button not activating
+- Fix facebook signout button not activating, well alot of kengraf-auh2 is broken
 - Add OATH code to kengraf.com example: https://2fa.glitch.me/
 - Convert Openid code to kengraf.com
 
