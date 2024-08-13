@@ -6,6 +6,8 @@
 - add 4-5 questions from book to lectures?
 - ~~set lab order~~ and complete this page
 - set lab tasks and outcomes
+- set all labs to 10 points, good start and available dates
+- DC-1 on offsec broken for large number of concurrent users
 - set lab walkthrough for student presentators
 - add pratice sites, chapter? or standalone filler? https://www.stationx.net/cyber-security-labs/
 - set assignments in canvas reading, labs, final quiz, present lab,
@@ -83,7 +85,7 @@
   - __Tools:__ Parrot command line tools.
   - __Tasks:__ Retrieve auth log, analyze log for various attack behaviors.  
 
-### 12) AUthentication OAuth
+### 12) Authentication OAuth
   - __Summary:__ Understand single sign-on mechanisms for web sites.  
   - __Tools:__ Website.
       [kengraf-auth2](https://kengraf-auth2.web.app/github-popup.html)  
@@ -141,7 +143,7 @@
 ### 22) Cloud OpSec
   - __Summary:__ Investigate admin access (both by AWS and the customer) to and from a standard EC2 instance.  
   - __Tools:__ AWS cloud account, SSH.    
-  - __Tasks:__ Create an AWS EC2 instance.  Review SSH access. Review system manager access.    
+  - __Tasks:__ Create IAM roles and AWS EC2 instances.  Review SSH access. Review system manager access.    
 
 ### 23) Metasploit
   - __Summary:__ Use a CTF (DC-1) from Offensive Security’s proving ground.  The solution requires creating a reverse shell.  
