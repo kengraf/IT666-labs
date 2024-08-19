@@ -21,7 +21,7 @@
   https://www.youtube.com/watch?v=gzWiWH4skRE~~
 - add helpful links
   - https://explainshell.com/explain?cmd=ls+-ar#
-- Fix facebook signout button not activating, well alot of kengraf-auh2 is broken
+- Fix facebook signout button not activating, a lot of kengraf-auth2 is broken
 - Add OATH code to kengraf.com example: https://2fa.glitch.me/
 - Convert Openid code to kengraf.com
 
@@ -54,15 +54,15 @@
   - __Tools:__ Parrot OS email, dig, nslookup.  
   - __Tasks:__ Configure email service on Parrot.  Send phishing email to selected target.  
 
-### 6) HTB: TwoMillion
+### 6) HTB: TwoMillion (foothold)
   - __Summary:__ To celebrate 2 million users; Hack The Box (HTB) went retro. In the past HTB required that "you are so high" to create an account on their site.  This box is a simulation of HTB's previous login process.  Can you show that you are tall enough to ride?   
   - __Tools:__ Browser.  
   - __Tasks:__ Follow the code.  Alter the normal browser flow.  Get an access code to login.  
 
-### 7) HTB: Paper
-  - __Summary:__ A step up in difficulty from TwoMillion.  This box is a fun theme based on "The Office".  
-  - __Tools:__ Parrot OS.  
-  - __Tasks:__ Basic enumeration, searchsploit, LINPEAS.  
+### 7) HTB: TwoMillion (Ecalation)
+  - __Summary:__ Continuation of previous lab   
+  - __Tools:__ Browser 
+  - __Tasks:__ Move laterally and escalate to root.  
 
 ### 8) Reverse Engineering
   - __Summary:__ Use NSA developed tool to decompile code.    
@@ -145,11 +145,10 @@
   - __Tools:__ AWS cloud account, SSH.    
   - __Tasks:__ Create IAM roles and AWS EC2 instances.  Review SSH access. Review system manager access.    
 
-### 23) Metasploit
-  - __Summary:__ Use a CTF (DC-1) from Offensive Security’s proving ground.  The solution requires creating a reverse shell.  
-  - __Tools__:
-        Website: [Offensive Security's proving ground](https://portal.offsec.com/labs/play)
-  - __Tasks:__ Execute the attack steps; enumeration, foothold, and escalation.  
+### 23) HTB: Paper
+  - __Summary:__ A step up in difficulty from TwoMillion.  This box is a fun theme based on "The Office".  
+  - __Tools:__ Parrot OS.  
+  - __Tasks:__ Basic enumeration, searchsploit, LINPEAS.  
 
 ### 24) Windows Password Audit
   - __Summary:__
