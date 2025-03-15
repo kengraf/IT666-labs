@@ -1,32 +1,5 @@
 # IT666-labs
 
-### TBDs
-- ~~review the book by chapter to fill gaps~~
-- ~~determine which 5 chapters get 2 lectures~~
-- add 4-5 questions from book to lectures?
-- ~~set lab order~~ and complete this page
-- ~~set lab tasks and outcomes~~
-- ~~set all labs to 10 points, good start and available dates~~
-- ~~DC-1 on offsec broken for large number of concurrent users~~
-- set lab walkthrough for student presentators
-- add pratice sites, chapter? or standalone filler? https://www.stationx.net/cyber-security-labs/
-- ~~set assignments in canvas reading, labs, final quiz, present lab,~~
-- ~~fix grading~~
-- Parrot running on EC2
-- AWS python sim of apigatewayv2 (chatgpt)
-- ~~HTB access to PAPER~~
-- ~~alientvault billiardyoda ken.graf@unh.edu strongpassword~~
-- ~~AWS EC2 ssh auth.log generation~~
-- ~~Do the RHINO hunt https://cfreds.nist.gov/all/NIST/RhinoHunt
-  https://www.youtube.com/watch?v=gzWiWH4skRE~~
-- add helpful links
-  - https://explainshell.com/explain?cmd=ls+-ar#
-- Fix facebook signout button not activating, a lot of kengraf-auth2 is broken
-- Add OATH code to kengraf.com example: https://2fa.glitch.me/
-- Convert Openid code to kengraf.com
-- [example google](https://developers.google.com/identity/gsi/web/guides/display-button)
-- 
-
 ### 1) Parrot install
   - __Summary:__ For labs this semester we will use Parrot OS running in a virtual machine.
   - __Tools:__ Virtual Box
