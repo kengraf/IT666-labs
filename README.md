@@ -105,10 +105,13 @@
   - __Tools:__ Wireshark (preinstalled on Parrot)
   - __Tasks:__ By reading captured emails determine who Ann is meeting and where.  
 
-### 20) Chromium SCAP/Ublock
-  - __Summary:__ Implement an enterprise security policy for Chrome.  
-  - __Tools:__  Chrome install needed on Parrot
-  - __Tasks:__ Chrome install, apply policy, make adjustments for unwanted behavior.    
+### 20) Browser Policy
+  - __Summary:__ Implement an enterprise security policy for Brave.  
+  - __Tools:__  Brave install needed on Parrot
+  - __Tasks:__ Chrome install, apply policy, make adjustments for unwanted behavior.
+    - Disable sync, extensions, and password manager.
+    - Force safe browsing
+    - Enable "Dark Reader" extension    
 
 ### 21) Rhino Hunt
   - __Summary:__ 2.	A NIST sponsored forensic challenge called "Rhino Hunt".  Given a disk image and some network captures can you answer the questions and find the rhinos?
@@ -120,29 +123,17 @@
   - __Tools:__ AWS cloud account, SSH.    
   - __Tasks:__ Create IAM roles and AWS EC2 instances.  Review SSH access. Review system manager access.    
 
-### 23) HTB: Paper
+### 23) KOTH Example
   - __Summary:__ A step up in difficulty from TwoMillion.  This box is a fun theme based on "The Office".  
   - __Tools:__ Parrot OS.  
   - __Tasks:__ Basic enumeration, searchsploit, LINPEAS.  
 
-### 24) Windows Password Audit
+### 24) Password Audit
   - __Summary:__
-    - Perform a Windows password audit on a simulated business environment.  
+    - Perform a Windows/Linux password audit on a simulated business environment.  
   - __Tools:__
-    - [NICE portal](https://portal.nice-challenge.com/login) a registration link will be provider prior to class.  
+    - [NICE portal](https://portal.nice-challenge.com/login) a registration link will be provided prior to class.  
     - Utilities needed are provided by a virtual Kali instance.  
   - __Tasks:__
     - Locate, retrieve, and crack password hashes.
     - Force password reset for only the users that failed the password audit.
-
-### 25) Password Audit Linux
-  - __Summary:__
-    - Perform a Linux application password audit on a simulated business environment.  
-  - __Tools:__
-    - [NICE portal](https://portal.nice-challenge.com/login) a registration link will be provider prior to class.  
-    - Utilities needed are provided by a virtual Kali instance.  
-  - __Tasks:__
-    - Locate, retrieve, and crack password hashes.
-    - Force password reset for only the users that failed the password audit.
-
-
